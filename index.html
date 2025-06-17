@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prawda czy Fałsz – Akta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Prawda czy Fałsz – Akta</h1>
+    </header>
+
+    <main>
+        <section id="szufladki" class="grid">
+            <button class="drawer" data-postac="newton">
+                <img src="szuflada1.png" alt="Szuflada 1">
+            </button>
+            <button class="drawer" data-postac="kleopatra">
+                <img src="szuflada2.png" alt="Szuflada 2">
+            </button>
+            <!-- Można dodać więcej szufladek -->
+        </section>
+
+        <section id="karta" class="hidden">
+            <h2 id="imie-nazwisko"></h2>
+            <ul id="stwierdzenia"></ul>
+            <button id="pokaz-odpowiedzi" class="hidden">🔍 Pokaż odpowiedzi</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
